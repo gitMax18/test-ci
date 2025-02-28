@@ -42,7 +42,7 @@ jobs:
           node-version: 20
       - name: install
         run: npm install
-      - name: install
+      - name: build
         run: npm run build
       - name:
         run: echo "Deploying to production"
